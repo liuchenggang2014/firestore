@@ -1,4 +1,4 @@
-# fire store create native database and create internal oauth credentials with client_id/secret_d
+# fire store create native database and create internal oauth credentials with client_id/secret_id
 
 ## steps:
 ```
