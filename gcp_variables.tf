@@ -8,5 +8,10 @@ variable "gcp_region" {
   default     = "us-central1"
 }
 
+variable "oauth_support_email" {
+  description = "Support email displayed on the OAuth consent screen"
+  default     = "support@example.com"
+}
+
 
 

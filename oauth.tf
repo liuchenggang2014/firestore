@@ -1,6 +1,6 @@
 
 resource "google_iap_brand" "project_brand" {
-  support_email     = "cliu201-sa@cliu201.iam.gserviceaccount.com"
+  support_email     = var.oauth_support_email
   application_title = "Lego"
 
   depends_on = [
