@@ -4,6 +4,7 @@
 ```
 git clone https://github.com/liuchenggang2014/firestore
 cd firestore
+vi terraform.tfvars    # change the vars: gcp_project_d and oauth_support_email at least
 terraform apply
 ``` 
 
