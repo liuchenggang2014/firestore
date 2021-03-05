@@ -4,7 +4,8 @@ resource "google_iap_brand" "project_brand" {
   application_title = "Lego"
 
   depends_on = [
-    google_project_service.iap
+    google_project_service.iap,
+    google_app_engine_application.app
   ]
 }
 
